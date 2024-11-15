@@ -1,0 +1,139 @@
+.footer {
+  background-color: #000;
+}
+
+footer {
+  padding: 0;
+  background-color: #222;
+}
+
+.container-fluid {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about-section,
+.contact-and-partners-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: larger;
+}
+
+.social-media-section {
+  display: flex;
+  justify-content: center; /* Garante que os ícones fiquem centralizados */
+  align-items: center; /* Alinha os ícones verticalmente */
+  gap: 15px; /* Espaçamento entre os ícones */
+  margin-top: 10px; /* Espaçamento superior */
+}
+
+.about-section img {
+  width: 60px; /* Aumentando a imagem de sobre */
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.text-white {
+  color: white;
+}
+
+.social-media-section {
+  display: flex;
+  justify-content: center; /* Exibe as redes sociais na horizontal */
+  margin-top: 10px;
+}
+
+.social-media-section a {
+  margin-right: 15px; /* Espaçamento entre os ícones */
+  transition: transform 0.3s ease;
+}
+
+.social-media-section a:hover {
+  transform: scale(1.1);
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.contact-and-partners-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contact-section,
+.partners-section {
+  margin-bottom: 10px; /* Espaçamento entre contato e parceiros */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .container-fluid {
+    text-align: center;
+  }
+
+  .row {
+    display: block; /* Organiza em coluna no mobile */
+    margin-bottom: 20px;
+  }
+
+  .about-section img {
+    width: 40px; /* Ajuste para telas menores */
+    height: 40px;
+  }
+
+  .about-section,
+  .contact-and-partners-section,
+  .social-media-section {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .contact-and-partners-section {
+    margin-top: 20px;
+  }
+}
+.contact-and-partners-section img{
+  width: 40px;
+  height: 40px;
+}
+
+
+
+#sobre img {
+  width: 150px; /* Aumente o tamanho da imagem */
+  height: 150px; /* Ajuste a altura para manter a proporção */
+}
+#sobre p {
+  font-size: 30px;
+  text-decoration: none;
+   color : #000;
+  position: relative;
+  bottom: 60px;
+}
+a {
+  text-decoration: none;
+}
+
+.social-media-section a {
+  margin-right: 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.social-media-section a:hover {
+  transform: scale(1.1);
+  color: #ddd;  /* Mudança suave de cor */
+}
+
+
+
+
+
+

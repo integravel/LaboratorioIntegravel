@@ -1,0 +1,10 @@
+.custom-navbar {
+    background-color: #000; /* Preto puro */
+    color: #fff; /* Texto branco */
+    box-shadow: none; /* Remove sombras */
+  }
+
+  .navbar span{
+    color: #fff;
+  }
+  
