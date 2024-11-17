@@ -1,0 +1,14 @@
+.custom-navbar {
+  position: fixed; /* Fixa o nav no topo da página */
+  top: 0; /* Posiciona no topo */
+  left: 0; /* Alinha com a esquerda */
+  width: 100%; /* Garante que o nav ocupe toda a largura */
+  background-color: #000; /* Preto puro */
+  color: #fff; /* Texto branco */
+  z-index: 1000; /* Garante que o nav fique acima de outros elementos */
+  box-shadow: none; /* Remove sombras */
+}
+
+.navbar span {
+  color: #fff;
+}

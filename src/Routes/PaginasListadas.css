@@ -1,0 +1,44 @@
+.livros-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .livro-card {
+    width: calc(33.33% - 20px); /* 3 por linha */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .livro-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .livro-card .links a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .livro-card .links a:hover {
+    background-color: #0056b3;
+  }
+  .livro-card img.livro-imagem {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Ajuste conforme necessário */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+    

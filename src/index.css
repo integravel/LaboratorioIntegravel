@@ -1,0 +1,112 @@
+/* Ajuste o espaçamento superior para evitar sobreposição com o cabeçalho */
+#pagina-escrita {
+    margin-top: 80px; /* Ajuste conforme o tamanho da sua navbar */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: flex-start;
+    max-width: 100%; /* Garante que a largura seja 100% em qualquer dispositivo */
+}
+
+/* Estilo geral dos títulos */
+#pagina-escrita h3, #pagina-escrita h4, #pagina-escrita h2 {
+    color: #333;
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+/* Estilo para o parágrafo de cada curso */
+#pagina-escrita p {
+    font-size: 1.125rem; /* Tamanho da fonte para boa legibilidade */
+    color: #333; /* Cor mais escura para bom contraste */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    text-align: left; /* Alinha o texto à esquerda, sem justificar */
+    margin: 0 0 20px 0; /* Margem inferior de 20px */
+    padding: 0; /* Remove padding extra */
+    max-width: 800px; /* Limita a largura do texto */
+    word-wrap: break-word; /* Garante que palavras longas não ultrapassem a largura */
+    box-sizing: border-box; /* Para garantir que padding não afete a largura */
+}
+
+
+/* Ajusta o tamanho da fonte para a descrição dos cursos */
+#pagina-escrita h4 {
+    font-size: 1.3rem; /* Aumenta o tamanho da fonte */
+    max-width: 900px; /* Limita a largura */
+    margin-bottom: 30px; /* Espaço abaixo */
+}
+
+/* Estiliza os links de inscrição */
+#pagina-escrita a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#pagina-escrita a:hover {
+    text-decoration: underline;
+}
+
+/* Adiciona um estilo para os cursos */
+#pagina-escrita h3 {
+    font-size: 1.7rem; /* Aumenta o tamanho da fonte */
+    font-weight: bold;
+}
+
+#pagina-escrita h2 {
+    font-size: 1.4rem; /* Aumenta o tamanho da fonte */
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    #pagina-escrita {
+        padding: 15px;
+    }
+
+    #pagina-escrita h3 {
+        font-size: 1.5rem; /* Aumenta o tamanho da fonte */
+    }
+
+    #pagina-escrita h2 {
+        font-size: 1.3rem; /* Aumenta o tamanho da fonte */
+    }
+
+    #pagina-escrita p {
+        font-size: 1rem; /* Ajusta a fonte em telas menores */
+        max-width: 100%; /* Permite que o texto ocupe toda a largura */
+        margin: 10px 0; /* Ajusta as margens para telas menores */
+    }
+
+    /* Ajusta o link da inscrição */
+    #pagina-escrita a {
+        font-size: 1.1rem;
+    }
+}
+
+/* Estilos adicionais para telas muito pequenas */
+@media (max-width: 480px) {
+    #pagina-escrita h4 {
+        font-size: 1.1rem; /* Tamanho da fonte adequado para telas pequenas */
+    }
+
+    #pagina-escrita p {
+        font-size: 0.9rem; /* Ajusta o tamanho da fonte para telas muito pequenas */
+        line-height: 1.4; /* Ajusta o espaçamento entre as linhas */
+    }
+
+    #pagina-escrita h3 {
+        font-size: 1.3rem; /* Aumenta o tamanho da fonte */
+    }
+
+    #pagina-escrita h2 {
+        font-size: 1.2rem; /* Aumenta o tamanho da fonte */
+    }
+
+    #pagina-escrita a {
+        font-size: 1.1rem; /* Aumenta o tamanho da fonte */
+    }
+}

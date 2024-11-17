@@ -1,5 +1,5 @@
 import Logo from '../Imgs/logo_primaria.png'
-import '../Components/Navbar.css'
+import '../Components/Nav.css'
 
 const Nav =()=>{
     return(<nav className="navbar custom-navbar m-0">
